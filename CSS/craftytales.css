@@ -1,0 +1,19 @@
+.navbar{
+    background:#a1957182 !important;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'prague';
+}
+
+.a{
+    background-image: url(../Image/bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-position:center ;
+    background-size: cover;
+    margin-top: 20px
+}

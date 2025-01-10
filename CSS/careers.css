@@ -1,0 +1,62 @@
+.weblogo{
+    width: 65px ;
+}
+.navbar{
+    background:#00000082 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.navbar li:hover{
+    background: orange;
+    border-radius: 1px;
+}
+
+.moblogo{
+    display:none;
+}
+
+@media(max-width:768px){
+    .weblogo{
+        display: none;
+    }
+
+    .moblogo{
+        display: block;
+    }
+
+    .navbar{
+        background: orange !important;
+    }
+}
+
+
+.aabbcc{
+    background-image: url(https://pn-paul.netlify.app/image/new-careers-1.jpg);
+    width: 100%;
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ppp{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+}
